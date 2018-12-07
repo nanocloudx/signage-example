@@ -1,0 +1,12 @@
+{
+  "name": "crystalizex-signage",
+  "private": true,
+  "workspaces": ["server", "client"],
+  "scripts": {
+    "start": "yarn build && node ./server/bin/www",
+    "watch": "cd client && vue-cli-service serve",
+    "build": "cd client && vue-cli-service build && cd ../server && mv public/index.html views/index.hjs",
+    "lint": "cd client && vue-cli-service lint",
+    "test": "cd client && vue-cli-service test:unit"
+  }
+}
