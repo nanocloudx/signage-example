@@ -1,3 +1,3 @@
-# crystalizex-signage
+# signage-example
 
 digital signage platform
